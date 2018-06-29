@@ -1,11 +1,24 @@
+@font-face{
+    font-family: CoffeeTin Initials;
+    src: url(assets/fonts/CoffeeTin\ Initials.ttf);
+}
+
+@font-face{
+    font-family: Shadows of Security;
+    src: url(assets/fonts/Shadows\ of\ Security.otf);
+}
+
 body {
     text-align: center;
+    background:white url(assets/img/white_back_pattern.jpg) no-repeat;
+    overflow: hidden;
 }
 
 h1 {
-    font-family: Monoton;
+    font-family: CoffeeTin Initials;
     font-size: 70px;
-    margin: 0.2em;  
+    margin: 0.2em;
+    color:cyan;
 }
 
 h2 {
@@ -16,7 +29,21 @@ h2:first-of-type {
     margin-top: 0.5em;
 }
 
-table,
+input[type="radio"]{
+    width:12px;
+    height:12px;
+    padding:0;
+    margin:0;
+    vertical-align:bottom;
+    position: relative;
+    top:-3px;
+    cursor:pointer;
+}
+
+label{
+    margin-right: 20px;
+}
+
 tr,
 td {
     border: 1px solid black;
@@ -37,4 +64,30 @@ td {
 
 input[type=number] {
     width: 6em;
+}
+
+.default{
+    border: 1px solid black; 
+} 
+.double{
+    outline: thick double #32a1ce;
+}
+
+.ridge{
+    outline: 4mm ridge rgb(170, 50, 220, .6);
+}
+
+.inset{
+    outline: 7px inset crimson;
+}
+
+.outset{
+    outline: 7px outset crimson;
+}
+
+.danger{
+    width:auto;
+    color: rgba(248, 14, 33, 0.6);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
