@@ -2,7 +2,6 @@ $(function(){
     // Select color input
     // Select size input
     $('input:radio').first().prop("checked",true);
-    // $('h2:nth-of-type(4)').css("margin-bottom",20);
     $('h2:not(:first-of-type)').css({"font-family": "Shadows of Security", "font-size":30});
     // When size is submitted by the user, call makeGrid()
     $('#sizePicker').submit(makeGrid);
