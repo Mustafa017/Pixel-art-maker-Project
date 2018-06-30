@@ -1,4 +1,5 @@
 # Pixel Art Maker Project
+To view the project live, follow this link https://mustafa017.github.io/Pixel-art-maker-Project/
 
 ## Table of Contents
 
